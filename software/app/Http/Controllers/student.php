@@ -15,6 +15,8 @@ class student extends Controller
   public function index()
   {
 
+
+
      session(['message' => 'welcome ' . Auth::user()->name]);
      $message = session('message');
 
